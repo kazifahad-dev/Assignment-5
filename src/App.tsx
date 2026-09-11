@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar"
 
 
 function App() {
@@ -6,10 +7,9 @@ function App() {
   return (
     <>
       
-    <h1 className="text-5xl font-extrabold text-gradient-brand">Dev Stack</h1>
-      
-
-      
+      <div className="min-h-screen bg-white">
+      <Navbar/>
+    </div>
 
       
     </>
