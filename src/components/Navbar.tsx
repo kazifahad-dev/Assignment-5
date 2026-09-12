@@ -1,5 +1,10 @@
 import { useState } from 'react'
 
+import Logo from "../assets/logo-text.png"
+
+import hamburger from "../assets/hamburger.png"
+
+
 const NAV_LINKS = ['Home', 'Technologies', 'Projects', 'About', 'Contact']
 
 export default function Navbar() {
@@ -10,22 +15,15 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between sm:h-20">
           <button
-            className="p-2 -ml-2 text-slate-700 md:hidden"
-            aria-label="Toggle menu"
-            onClick={() => setIsMenuOpen((open) => !open)}
-          >
-            <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 1h22M0 8h22M0 15h22" stroke="#0f172a" strokeWidth="1.5" strokeLinecap="round" />
-            </svg>
-          </button>
+  className="p-2 -ml-2 md:hidden"
+  aria-label="Toggle menu"
+  onClick={() => setIsMenuOpen((open) => !open)}
+>
+  <img src={hamburger} alt="" className="h-4 w-5.5" />
+</button>
 
-          <a href="#home" className="flex items-center gap-2.5 md:mr-auto">
-            <span className="flex size-8 items-center justify-center rounded-lg bg-gradient-brand text-sm font-extrabold text-white">
-              DS
-            </span>
-            <span className="text-xl font-bold text-slate-900">
-              Dev <span className="text-[#db2777]">Stack</span>
-            </span>
+          <a href="#home" className="flex items-center md:mr-auto">
+              <img src={Logo} alt="Dev Stack" className="h-7 w-auto sm:h-8" />
           </a>
 
           <nav className="mx-auto hidden items-center gap-8 md:flex">
