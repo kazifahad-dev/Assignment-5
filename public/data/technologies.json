@@ -124,7 +124,7 @@
     "name": "Tailwind CSS",
     "category": "Styling",
     "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    "icon":  "https://cdn.jsdelivr.net/gh/devicons/devicon@2.15.1/icons/tailwindcss/tailwindcss-plain.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Modern"
