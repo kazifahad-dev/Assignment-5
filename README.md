@@ -9,11 +9,11 @@ built from a Figma design.
 
 ## Technologies Used
 
-1.React 18 + TypeScript — component-based UI with static typing
-2.Vite — fast dev server & build tool
-3.Tailwind CSS v4 — utility-first styling
-4.react-toastify — toast notifications for stack actions
-5.JSON — local data source for the technology catalog, loaded via fetch()
+#### 1.React 18 + TypeScript — component-based UI with static typing
+#### 2.Vite — fast dev server & build tool
+#### 3.Tailwind CSS v4 — utility-first styling
+#### 4.react-toastify — toast notifications for stack actions
+#### 5.JSON — local data source for the technology catalog, loaded via fetch()
 
 
 
