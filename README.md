@@ -78,32 +78,32 @@ built from a Figma design.
    (1 column on mobile, 2 on tablet, 3 on desktop) with a sticky, mobile-friendly navbar.
 
 
-## React questions answer 
+### React questions answer 
 
   1. What is JSX, and why is it used in React?
 
-  ## Ans :  (JavaScript XML) is a syntax extension for JavaScript that lets you write HTML-like code directly inside your JavaScript files. 
+  # Ans :  (JavaScript XML) is a syntax extension for JavaScript that lets you write HTML-like code directly inside your JavaScript files. 
 
   2. What is the difference between props and state?
 
-  ## Ans : Props are passed into a component from the outside by a parent and state manage into the component.
+  # Ans : Props are passed into a component from the outside by a parent and state manage into the component.
 
   3. What does the useState hook do, and where did you use it in this project?
 
-  ## Ans : useState hook is a built-in React function that you to add state variables to functional components.
+  # Ans : useState hook is a built-in React function that you to add state variables to functional components.
 
   4. What does the useEffect hook do, and why did you need it to load the JSON data?
 
-  ## Ans : The useEffect hook in React lets you synchronize a component with external systems or perform "side effects"—tasks like    fetching data, manually modifying the DOM, setting up timers, or subscribing to external services—after a component renders.
+  # Ans : The useEffect hook in React lets you synchronize a component with external systems or perform "side effects"—tasks like    fetching data, manually modifying the DOM, setting up timers, or subscribing to external services—after a component renders.
 
   5. Why does every item in a .map() list need a unique key prop?
 
-  ## Ans : React requires a unique key prop for each item in a mapped list so its reconciliation algorithm (the Virtual DOM) can track which items have changed, been added, or been removed between renders.
+  # Ans : React requires a unique key prop for each item in a mapped list so its reconciliation algorithm (the Virtual DOM) can track which items have changed, been added, or been removed between renders.
 
   6. What is conditional rendering? Show one place you used it (example: the empty stack message).
 
-  ## Ans : Conditional rendering in React is the practice of rendering different UI elements or components based on specific conditions or state, working just like if statements or ternary operators in standard JavaScript.
+  # Ans : Conditional rendering in React is the practice of rendering different UI elements or components based on specific conditions or state, working just like if statements or ternary operators in standard JavaScript.
 
   7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 
-  ## Ans :  Pass data from a parent to a child using properties or parameters, and the child sends data back using callback functions or emitted events.
+  # Ans :  Pass data from a parent to a child using properties or parameters, and the child sends data back using callback functions or emitted events.
